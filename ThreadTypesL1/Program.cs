@@ -7,6 +7,7 @@ using ThreadTypesL1;
 // Background threads you can set using property isBackground = true
 // Background exits when main thread finish they task
 
+
 Thread.CurrentThread.Name = "Main thread";
 
 // You must run application multiple times to see difference

@@ -17,10 +17,12 @@
         // Invoking threads
         public static void Invoke()
         {
+
             var textRequest = new Thread(TextLoader)
             {
                 Name = "Foreground Thread"
             };
+            
             textRequest.Start();
         }
     }

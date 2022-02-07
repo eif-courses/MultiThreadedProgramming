@@ -12,11 +12,16 @@
         {
             Console.WriteLine($"{Thread.CurrentThread.Name}, sending image... ");
         }
+        static void Calculating()
+        {
+            Console.WriteLine($"{Thread.CurrentThread.Name}, calculating a+b... ");
+        }
         // Invoking Methods on Main Thread
         public static void Invoke()
         {
             DownloadImage();
             SendMessage();
+            Calculating();
         }
 
     }
