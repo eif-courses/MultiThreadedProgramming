@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTypesL1", "ThreadTypesL1\ThreadTypesL1.csproj", "{CAD9AECD-9732-4D08-9FF6-F8A49BFCDE9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafetyL2", "ThreadSafetyL2\ThreadSafetyL2.csproj", "{7BFECA02-BE58-466E-875A-14E1AA8DC94A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{CAD9AECD-9732-4D08-9FF6-F8A49BFCDE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD9AECD-9732-4D08-9FF6-F8A49BFCDE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAD9AECD-9732-4D08-9FF6-F8A49BFCDE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFECA02-BE58-466E-875A-14E1AA8DC94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFECA02-BE58-466E-875A-14E1AA8DC94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFECA02-BE58-466E-875A-14E1AA8DC94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFECA02-BE58-466E-875A-14E1AA8DC94A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
