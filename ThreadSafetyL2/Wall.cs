@@ -48,6 +48,7 @@ public static class Wall
             // Critical section
             _xPos += 10;
             _yPos += 1;
+            throw new AggregateException("PROBLEM HERE");
         }
         catch (AggregateException e)
         {

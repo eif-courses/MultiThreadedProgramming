@@ -2,8 +2,8 @@
 
 public class Account
 {
-    private readonly object _balanceLock = new object();
-    private decimal _balance;
+    private readonly object _balanceLock = new();
+    private decimal _balance; // shared resource
 
     public Account(decimal initialBalance) => _balance = initialBalance;
 
